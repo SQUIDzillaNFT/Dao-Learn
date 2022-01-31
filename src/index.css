@@ -4,7 +4,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #1825d6;
   color: #fff;
   overflow-x: hidden;
 }
@@ -118,13 +118,15 @@ button {
   cursor: pointer;
   background-color: #000;
   color: #fff;
-  border: none;
-  font-weight: bold;
+  border: rgb(222, 0, 252);
   font-family: inherit;
   padding: 1.2rem 2rem;
   text-transform: uppercase;
   border-radius: 3rem;
   font-size: 1.2rem;
+  width: 32%;
+  margin-left: 34%;
+  margin-right: 34%;
 }
 
 button:hover {
