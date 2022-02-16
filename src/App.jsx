@@ -26,6 +26,9 @@ const App = () => {
   return (
     <div className="landing">
       <h1>Connected to the Mandox</h1>
+      <div class="center-image">
+     <img src="https://i.imgur.com/S2maL8E.png"/>
+</div>
     </div>);
 };
 
