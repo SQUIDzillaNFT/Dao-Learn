@@ -25,10 +25,10 @@ const App = () => {
   // which means they've connected their wallet to our site!
   return (
     <div className="landing">
-      <h1>Connected to the Mandox</h1>
       <div class="center-image">
      <img src="https://i.imgur.com/S2maL8E.png"/>
 </div>
+<h1>Connected to the Mandox</h1>
     </div>);
 };
 
