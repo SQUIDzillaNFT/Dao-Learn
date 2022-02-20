@@ -11,7 +11,7 @@ const bundleDrop = sdk.getBundleDropModule(
       {
         name: "MANDAO DAO DAO",
         description: "This NFT gives you access to ManDAO!",
-        image: readFileSync("scripts/assets/headband.png"),
+        image: readFileSync("scripts/assets/lacedameon.png"),
       },
     ]);
     console.log("✅ Successfully created a new NFT in the drop!");
