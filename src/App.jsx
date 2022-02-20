@@ -95,6 +95,20 @@ const bundleDropModule = sdk.getBundleDropModule(
 //    </div>);
 //};
 
+// Add this to show result after mint
+if (hasClaimedNFT) {
+  return (
+    <div className="member-page">
+<img src="https://i.imgur.com/S2maL8E.png"/>
+      <h1>ManDAO Member Page</h1>
+      <p>Congratulations MANNNNDOOOXXX</p>
+    </div>
+  );
+};
+
+
+
+
 
   // Render mint nft screen.
   return (
