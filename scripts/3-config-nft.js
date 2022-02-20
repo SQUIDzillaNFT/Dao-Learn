@@ -10,7 +10,7 @@ const bundleDrop = sdk.getBundleDropModule(
     await bundleDrop.createBatch([
       {
         name: "MANDAO DAO DAO",
-        description: "This NFT will give you access to ManDAO!",
+        description: "This NFT gives you access to ManDAO!",
         image: readFileSync("scripts/assets/headband.png"),
       },
     ]);
