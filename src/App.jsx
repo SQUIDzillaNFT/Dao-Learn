@@ -99,7 +99,9 @@ const bundleDropModule = sdk.getBundleDropModule(
 if (hasClaimedNFT) {
   return (
     <div className="member-page">
-<img src="https://i.imgur.com/S2maL8E.png"/>
+      <div className="image-container">
+<img className="photo" src="https://i.imgur.com/S2maL8E.png" />
+</div>
       <h1>ManDAO Member Page</h1>
       <p>Congratulations MANNNNDOOOXXX</p>
     </div>
