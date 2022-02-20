@@ -24,11 +24,12 @@ const App = () => {
   // This is the case where we have the user's address
   // which means they've connected their wallet to our site!
   return (
+    
     <div className="landing">
       <div class="center-image">
      <img src="https://i.imgur.com/S2maL8E.png"/>
 </div>
-<h1>Connected to the Mandox</h1>
+<h1>Dao Connected</h1>
     </div>);
 };
 
